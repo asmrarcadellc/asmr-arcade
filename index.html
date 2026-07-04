@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ASMR Arcade — Calm fidget toys &amp; sensory fun</title>
+<meta name="description" content="An arcade full of satisfying little machines: pop, rake, squish, pour and play. No ads, no subscription — just calm.">
+<style>
+  :root {
+    --ink: #3a3444;
+    --ink-soft: #7a7286;
+    --bg-top: #fff4ec;
+    --bg-bottom: #fbdce6;
+    --card: #ffffff;
+    --accent: #e5739a;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    color: var(--ink);
+    background: linear-gradient(180deg, var(--bg-top), var(--bg-bottom));
+    min-height: 100vh;
+    line-height: 1.6;
+  }
+  main { max-width: 640px; margin: 0 auto; padding: 56px 24px 80px; }
+  .icon {
+    width: 96px; height: 96px; border-radius: 22px;
+    box-shadow: 0 10px 30px rgba(58, 52, 68, 0.18);
+    display: block; margin-bottom: 24px;
+  }
+  h1 { font-size: 2.4rem; font-weight: 800; letter-spacing: -0.02em; }
+  .tagline { font-size: 1.15rem; color: var(--ink-soft); margin: 8px 0 32px; }
+  .card {
+    background: var(--card); border-radius: 20px; padding: 28px;
+    margin: 20px 0; box-shadow: 0 6px 24px rgba(58, 52, 68, 0.08);
+  }
+  h2 { font-size: 1.2rem; font-weight: 700; margin-bottom: 10px; }
+  p + p { margin-top: 10px; }
+  ul { margin: 10px 0 0 22px; }
+  li { margin: 4px 0; }
+  a { color: var(--accent); font-weight: 600; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .muted { color: var(--ink-soft); font-size: 0.95rem; }
+  footer { margin-top: 40px; color: var(--ink-soft); font-size: 0.85rem; }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #efeaf5; --ink-soft: #b3aabf;
+      --bg-top: #241f2e; --bg-bottom: #34222e;
+      --card: #2e2839;
+    }
+    .card { box-shadow: 0 6px 24px rgba(0, 0, 0, 0.3); }
+  }
+</style>
+</head>
+<body>
+<main>
+  <img class="icon" src="icon.png" alt="ASMR Arcade app icon" width="96" height="96">
+  <h1>ASMR Arcade</h1>
+  <p class="tagline">An arcade full of satisfying little machines: pop, rake, squish, pour and play. No ads, no subscription — just calm.</p>
+
+  <div class="card">
+    <h2>The machines</h2>
+    <ul>
+      <li>Pop-It, Classic Wrap &amp; Glass Bubbles — three kinds of bubble popping</li>
+      <li>Zen Garden — rake, smooth, and decorate real-feeling sand</li>
+      <li>Kinetic Sand, Sand Gravity &amp; Sand Table — flowing sand three ways</li>
+      <li>Slime — stretch it, squish it, it remembers</li>
+      <li>Scratch — scratch-to-reveal tickets, points just for fun</li>
+      <li>Button Panel — switches, knobs, and lamps that click just right</li>
+      <li>Microphone — rub the grille for that deep, cozy rumble</li>
+      <li>Theremin, Drum Kit &amp; Xylophone — instruments you can't play wrong</li>
+      <li>Soft Serve — pull the lever, catch the swirl, don't drop the cone</li>
+    </ul>
+  </div>
+
+  <div class="card" id="support">
+    <h2>Support</h2>
+    <p>Questions, problems, or ideas for a new machine? We read everything.</p>
+    <p><a href="mailto:asmrarcadellc@gmail.com">asmrarcadellc@gmail.com</a></p>
+    <p class="muted">Purchases: the Full Arcade unlock is a one-time purchase tied to your Apple&nbsp;ID. If it doesn't restore automatically after a reinstall or on a new device, tap <em>Restore purchases</em> on the paywall or in Profile. Refunds are handled by Apple at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+  </div>
+
+  <div class="card">
+    <h2>Privacy</h2>
+    <p>ASMR Arcade collects <strong>no data</strong>. No accounts, no tracking, no analytics. Nothing leaves your device.</p>
+    <p><a href="privacy.html">Read the full privacy policy</a></p>
+  </div>
+
+  <footer>© 2026 ASMR Arcade, LLC</footer>
+</main>
+</body>
+</html>
